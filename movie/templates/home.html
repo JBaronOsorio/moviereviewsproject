@@ -1,2 +1,16 @@
-<h1>Welcome to home page, {{name}}</h1>
-<h2>This is the full home page</h2>
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+    <style>
+        .colored-name {
+            color: blue; /* Cambia 'blue' al color que prefieras */
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to home page, <span class="colored-name">{{ name }}</span></h1>
+    <h2>This is the full home page</h2>
+</body>
+</html>
